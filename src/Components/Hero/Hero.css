@@ -1,0 +1,44 @@
+.main .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.main-title{
+    font-family: Philosopher;
+font-weight: 700px;
+font-size: 48.83px;
+width: 555px;
+letter-spacing: 0%;
+color: rgba(21, 12, 1, 1);
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;     
+    justify-content: center;
+}
+.main-paragraph{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+ color: rgba(21, 12, 1, 0.5);
+width: 555px;
+}
+.main-buttons{
+    display: flex;
+    gap: 20px;
+
+}
+.main-btn{
+    width:130px;
+    padding: 14px 8px;
+    color:rgba(220, 120, 11, 1);
+    border-radius: 5px;
+    border: 2px solid rgba(220, 120, 11, 1);
+    text-align: center;
+}
+.main-btn:hover{
+    background-color:  rgba(220, 120, 11, 1);
+    color: white;
+
+}
