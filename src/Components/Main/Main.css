@@ -1,16 +1,16 @@
-.wrapper .container{
+.sector .container{
     display: flex;
     flex-direction: column;
     gap:30px;
     align-items: center;
 
 }
-.wrapper-list{
+.sector-list{
     display: flex;
     justify-content: space-between;
    gap: 90px;
 }
-.wrapper-item{
+.sector-item{
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -19,7 +19,7 @@
     position: relative;
    
 }
-.wrapper-text{
+.sector-text{
     font-family: Roboto;
 font-weight: 400;
 font-size: 16px;
@@ -31,4 +31,21 @@ color: #3b3937;
 .item-image{
     position: absolute;
     top: 6%;
+}
+.sector-subtitle{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+ color: #DC780B;
+text-align: center;
+text-transform: uppercase;
+}
+.sector-title{
+    font-family: Philosopher;
+font-weight: 700;
+font-size: 31.25px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: #150C01;
 }

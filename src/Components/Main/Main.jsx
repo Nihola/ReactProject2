@@ -5,40 +5,41 @@ import house from './images/house.png';
 import food_delivery from './images/food_delivery.png';
 import smilik from './images/smilik.png';
 
+
 const Main = () => {
   return (
-    <div className='wrapper'>
+    <div className='sector'>
        <div className="container">
-       <h2 className='wrapper-subtitle'>Features</h2>
-        <h3 className='wrapper-title'>Food with a New Passion</h3>
-        <ul className="wrapper-list">
-            <li className="wrapper-item">
-                <img src={green_circle} alt="cirlce" className='wrapper-background' />
+       <h2 className='sector-subtitle'>Features</h2>
+        <h3 className='sector-title'>Food with a New Passion</h3>
+        <ul className="sector-list">
+            <li className="sector-item">
+                <img src={green_circle} alt="cirlce" className='sector-background' />
                 <img src={house} alt="house" className='item-image' />
-                <h3 className='wrapper-heading'>
+                <h3 className='sector-heading'>
                 Quality Food
                 </h3>
-                <p className='wrapper-text'>
+                <p className='sector-text'>
                 It can be a very secure path to earn good money and make you very successful creative entrepreneur.
                 </p>
             </li>
-            <li className="wrapper-item">
-                <img src={green_circle} alt="cirlce" className='wrapper-background' />
+            <li className="sector-item">
+                <img src={green_circle} alt="cirlce" className='sector-background' />
                 <img src={food_delivery} alt="house" className='item-image' />
-                <h3 className='wrapper-heading'>
+                <h3 className='sector-heading'>
                 Food Delivery
                 </h3>
-                <p className='wrapper-text'>
+                <p className='sector-text'>
                 It can be a very secure path to earn good money and make you very successful creative entrepreneur.
                 </p>
             </li>
-            <li className="wrapper-item">
-                <img src={green_circle} alt="cirlce" className='wrapper-background' />
+            <li className="sector-item">
+                <img src={green_circle} alt="cirlce" className='sector-background' />
                 <img src={house} alt="house" className='item-image' />
-                <h3 className='wrapper-heading'>
+                <h3 className='sector-heading'>
                 Super Taste
                 </h3>
-                <p className='wrapper-text'>
+                <p className='sector-text'>
                 It can be a very secure path to earn good money and make you very successful creative entrepreneur.
                 </p>
             </li>

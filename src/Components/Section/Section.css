@@ -51,15 +51,18 @@ color: #474643;
 }
 .section-button{
     width: 140px;
-    color: white;
+    color: #DC780B;
     text-align: center;
     border-radius: 5px;
     padding: 12px 5px;
     border: none;
-    background-color: #DC780B;
-}
-.section-button:hover{
     background-color: white;
     border: 2px solid #DC780B;
-    color: #DC780B;
+    
+}
+.section-button:hover{
+    background-color: #DC780B;
+    color: white;
+    border: 2px solid #DC780B;
+   
 }

@@ -48,16 +48,20 @@ justify-content: space-between;
   font-weight: bold;
 }
 
-.nav-button {
+.nav-button:hover{
   background-color: #e67e22;
   color: white;
+
+}
+
+.nav-button {
+  border: 2px solid #cf711f;
+  background-color: white;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  color: #cf711f;
   transition: background-color 0.3s;
 }
 
-.nav-button:hover {
-  background-color: #cf711f;
-}

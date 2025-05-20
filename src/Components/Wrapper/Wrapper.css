@@ -1,0 +1,133 @@
+.wrapper-title {
+    text-align: center;
+    font-size: 14px;
+    color: #e78c45;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+  }
+  
+  .wrapper-heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #1e1e1e;
+  }
+  
+  .wrapper-text {
+    text-align: center;
+    color: #666;
+    max-width: 600px;
+    margin: 0.5rem auto 2rem auto;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .wrapper-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .meal-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .meal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meal-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .meal-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #222;
+  }
+  
+  .meal-text {
+    color: #777;
+    font-size: 14px;
+    margin: 0.5rem 0;
+  }
+  
+  .meal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .meal-price {
+    font-weight: bold;
+    color: #222;
+    font-size: 16px;
+  }
+  
+  .meal-rating {
+    display: flex;
+    gap: 3px;
+  }
+  
+  .star {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .star.filled {
+    color: #f6b500;
+  }
+  
+  .meal-icon {
+    background-color: #f6b500;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .meal-icon:hover {
+    background-color: #e78c45;
+  }
+  .meal-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .learn-more-btn {
+    display: block;
+    margin: 1rem auto 2rem auto;
+    background-color: white;
+    color: #f6b500;
+
+    border:2px solid #f6b500;
+    padding: 0.6rem 1.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #e78c45;
+    color: white;
+  }
+  
