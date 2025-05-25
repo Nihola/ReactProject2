@@ -5,8 +5,8 @@ import Hero from './Components/Hero/Hero';
 import Main from './Components/Main/Main';
 import Section from './Components/Section/Section';
 import Layout  from './Components/Layout/Layout';
- import Wrapper from './Components/Wrapper/Wrapper';
 import Block from './Components/Block/Block'
+import Employees from './Components/Layout/Employees';
 function App() {
 
   return (
@@ -17,7 +17,7 @@ function App() {
       <Section/>
       <Layout/>
       <Block/>
-       
+      <Employees/>
 
     </>
   )

@@ -3,12 +3,12 @@
     flex-direction: column;
     gap:30px;
     align-items: center;
+    max-width: 1140px;
 
 }
 .sector-list{
     display: flex;
-    justify-content: space-between;
-   gap: 90px;
+ 
 }
 .sector-item{
     display: flex;
