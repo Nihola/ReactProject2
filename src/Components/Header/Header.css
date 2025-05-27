@@ -1,21 +1,21 @@
-.nav{
+/* Existing styles unchanged... */
+.nav {
   background-color: white;
- min-width: 100vw;
- min-height:35px;
-   margin-bottom: 20px;
-  
+  min-width: 100vw;
+  margin-bottom: 20px;
 }
-.nav .container{
-display: flex;
-padding: 10px 15px;
-justify-content: space-between;
+
+.nav .container {
+  display: flex;
+  padding: 10px 15px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-left {
   display: flex;
   align-items: center;
   gap: 40px;
-  
 }
 
 .logo {
@@ -48,12 +48,6 @@ justify-content: space-between;
   font-weight: bold;
 }
 
-.nav-button:hover{
-  background-color: #e67e22;
-  color: white;
-
-}
-
 .nav-button {
   border: 2px solid #cf711f;
   background-color: white;
@@ -65,3 +59,57 @@ justify-content: space-between;
   transition: background-color 0.3s;
 }
 
+.nav-button:hover {
+  background-color: #e67e22;
+  color: white;
+}
+
+.menu-icon {
+  font-size: 28px;
+  display: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* ✅ Responsive styles */
+@media (max-width: 700px) {
+  .nav-list {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 70px;
+    right: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    z-index: 10;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+  }
+
+  .mobile-menu .nav-item {
+    font-size: 16px;
+  }
+
+  .mobile-menu .nav-button {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+}

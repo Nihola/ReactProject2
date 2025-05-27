@@ -1,51 +1,89 @@
-.sector .container{
+.sector .container {
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap: 30px;
     align-items: center;
     max-width: 1140px;
-
-}
-.sector-list{
+    margin: 0 auto;
+  }
+  
+  .sector-list {
     display: flex;
- 
-}
-.sector-item{
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .sector-item {
     display: flex;
     flex-direction: column;
     gap: 25px;
     align-items: center;
     justify-content: center;
     position: relative;
-   
-}
-.sector-text{
+    width: 300px;
+    padding-top: 40px;
+  }
+  
+  .sector-text {
     font-family: Roboto;
-font-weight: 400;
-font-size: 16px;
- width: 300px;
-text-align: center;
-color: #3b3937;
-}
- 
-.item-image{
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    color: #3b3937;
+  }
+  
+  .item-image {
     position: absolute;
-    top: 6%;
-}
-.sector-subtitle{
+    top: 20%;
+    width: 50px;
+    height: auto;
+  }
+  
+  .sector-subtitle {
     font-family: Roboto;
-font-weight: 500;
-font-size: 16px;
- color: #DC780B;
-text-align: center;
-text-transform: uppercase;
-}
-.sector-title{
+    font-weight: 500;
+    font-size: 16px;
+    color: #DC780B;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .sector-title {
     font-family: Philosopher;
-font-weight: 700;
-font-size: 31.25px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: capitalize;
-color: #150C01;
-}
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #150C01;
+    text-align: center;
+    font-size: 50x;
+  }
+  
+  
+  /* ✅ Responsive styles */
+  @media screen and (max-width: 700px) {
+    .sector-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sector-item {
+      width: 90%;
+      font-size: 24px;
+    }
+  
+    .sector-text {
+      width: 90%;
+      font-size: 20px;
+    }
+  
+    .item-image {
+      top: 25%;
+      width: 40px;
+    }
+  }
+  

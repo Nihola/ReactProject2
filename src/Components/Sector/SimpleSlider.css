@@ -1,12 +1,14 @@
 /* SimpleSlider.css */
 
 .slider-container {
-  margin-top: 100px;
+  margin-top: 40px;
   padding: 50px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin-top: 150px;
+  max-width: 1140px;
 }
 
 .container {
@@ -36,13 +38,14 @@
 }
 
 .employee-card {
-  /* padding: 20px; */
+  padding: 20px;
   background-color: white;
   /* border-radius: 12px; */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   gap: 40px;
+  max-width: 60vw;
 }
 
 .employee-photo {
@@ -100,9 +103,27 @@
 }
 
 .next-arrow {
-  right: -40px;
+  right: 20%;
 }
 
 .prev-arrow {
-  left: -40px;
+  left: 20%;
+}
+
+ 
+
+ 
+ 
+@media(max-width:960px) {
+  .slider-text{
+    max-width: 70vw;
+    margin-bottom: 40px;
+  }
+  .next-arrow {
+    right:20%;
+  }
+  
+  .prev-arrow {
+    left: 20%;
+  }
 }

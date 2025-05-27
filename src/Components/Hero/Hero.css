@@ -1,44 +1,131 @@
-.main .container{
+.main .container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-}
-.main-title{
+    gap: 0px;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .main-title {
     font-family: Philosopher;
-font-weight: 700px;
-font-size: 48.83px;
-width: 555px;
-letter-spacing: 0%;
-color: rgba(21, 12, 1, 1);
-}
-.main-left{
+    font-weight: 700;
+    font-size: 40.83px;
+    width: 455px;
+    letter-spacing: 0%;
+    color: rgba(21, 12, 1, 1);
+  }
+  
+  .main-left {
     display: flex;
     flex-direction: column;
-    gap: 35px;     
+    gap: 35px;
     justify-content: center;
-}
-.main-paragraph{
+    max-width: 50%;
+  
+  }
+  
+  .main-paragraph {
     font-family: Roboto;
-font-weight: 500;
-font-size: 16px;
- color: rgba(21, 12, 1, 0.5);
-width: 555px;
-}
-.main-buttons{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(21, 12, 1, 0.5);
+    width: 555px;
+  }
+  
+  .main-buttons {
     display: flex;
     gap: 20px;
-
-}
-.main-btn{
-    width:130px;
+    flex-wrap: wrap;
+  }
+  
+  .main-image {
+    max-width: 580px; 
+    height: auto;
+   }
+  
+  .main-btn {
+    width: 130px;
     padding: 14px 8px;
-    color:rgba(220, 120, 11, 1);
+    color: rgba(220, 120, 11, 1);
     border-radius: 5px;
     border: 2px solid rgba(220, 120, 11, 1);
     text-align: center;
-}
-.main-btn:hover{
-    background-color:  rgba(220, 120, 11, 1);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .main-btn:hover {
+    background-color: rgba(220, 120, 11, 1);
     color: white;
-
-}
+  }
+  @media (max-width: 950px) {
+    .main .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .main-title,
+    .main-paragraph {
+      width: 80%;
+    }
+  
+    .main-left {
+      align-items: center;
+    }
+  
+    .main-buttons {
+      justify-content: center;
+    }
+  
+    .main-image {
+      max-width: 40%;
+    }
+  }
+  
+   
+  @media (max-width: 780px) {
+    .main .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .main-title,
+    .main-paragraph {
+      width: 100%;
+    }
+  
+    .main-left {
+      align-items: center;
+    }
+  
+    .main-buttons {
+      justify-content: center;
+    }
+  
+    .main-image {
+      max-width: 90%;
+    }
+  }
+   
+  @media (max-width: 420px) {
+    .main-title {
+      font-size: 32px;
+    }
+  
+    .main-paragraph {
+      font-size: 14px;
+    }
+  
+    .main-btn {
+      width: 100%;
+      max-width: 200px;
+    }
+  
+    .main-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

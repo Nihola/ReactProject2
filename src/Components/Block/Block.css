@@ -1,91 +1,158 @@
  
-  
-  .block .container{
-    position: relative;
-     
-     width: 1140px;  
-     height: 70vh; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    padding: 0px 40px;
-    gap: 50px;
+.block {
+  background: #fbf1e7;
+  margin-top: 100px;
+                  
+}
+.block .container {
+  position: relative;
+  width: 100%;                      
+  max-width: 1140px;                 
+  height: 70vh;
+  margin: 0 auto;             
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+/* ------ text column ------ */
+.block-wrap { max-width: 600px; }
+
+.block-tagline {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f97316;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.block-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 12px 0;
+}
+
+.block-description {
+  color: #4b5563;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 12px;
+}
+
+.block-buttons {
+  margin-top: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.app-store {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+.app-store:hover { background: #333; }
+
+.google-play {
+  background: #fff;
+  color: #000;
+  border-color: #d1d5db;
+}
+.google-play:hover { background: #f3f4f6; }
+
+ 
+.phone-image {
+  width: 340px;
+  position: absolute;
+  top: -100px;                       
+  right: 0;
+}
+
+ 
+@media (max-width: 992px) {
+  .block .container {
+    gap: 40px;
+    height: auto;                   
+    padding: 0 30px;
   }
   .block{
-    background-color: rgba(251, 241, 231, 1);
-    margin-top: 100px;
-    
+    overflow: hidden;
   }
-  
-  .block-wrap {
-    max-width: 600px;
-  }
-  
-  .block-tagline {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #f97316; /* orange-500 */
-    font-size: 14px;
-    letter-spacing: 1px;
-  }
-  
-  .block-heading {
-    font-size: 32px;
-    font-weight: bold;
-    color: #1f2937; /* gray-800 */
-    margin: 12px 0;
-  }
-  
-  .block-description {
-    color: #4b5563; /* gray-600 */
-    font-size: 16px;
-    line-height: 1.6;
-    margin-top: 12px;
-  }
-  
-  .block-buttons {
-    margin-top: 24px;
-    display: flex;
-    gap: 16px;
-  }
-  
-  .btn {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 14px;
-    padding: 10px 16px;
-    border-radius: 6px;
-    border: 2px solid transparent;
-    cursor: pointer;
-  }
-  
-  .app-store {
-    background-color: #000;
-    color: #fff;
-    border-color: #000;
-  }
-  
-  .app-store:hover {
-    background-color: #333;
-  }
-  
-  .google-play {
-    background-color: #fff;
-    color: #000;
-    border-color: #d1d5db;
-  }
-  
-  .google-play:hover {
-    background-color: #f3f4f6;
-  }
-  
-  .phone-image {
-    width: 340px;
-    position: absolute;
-    top: -100px;
-    right: 0;
 
+  .phone-image {
+   
+    top: -80px;                      
   }
-  
+}
+ 
+@media (max-width: 942px) {
+ 
+  .block .container {
+    flex-direction: column;          
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px 100px;        
+    gap: 50px;
+  }
+
+  .block-wrap { max-width: 100%; }
+
+  .block-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn { width: 180px; }
+
+ 
+  .phone-image {
+    position: static;                
+    width: 60%;
+    max-width: 320px;
+    margin-top: -40px;              
+  }
+}
+
+ 
+@media (max-width: 480px) {
+  .block-heading {
+    font-size: 24px;
+    line-height: 1.35;
+  }
+
+  .block-description {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .phone-image {
+    width: 75%;
+    margin-top: -10px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 8px 12px;
+    max-width: 200px;
+  }
+}
+
+ 
+@media (max-width: 390px) {
+  .block-heading { font-size: 22px; }
+  .phone-image   { width: 85%; margin-top: -20px; }
+  .btn           { width: 100%; }
+}
