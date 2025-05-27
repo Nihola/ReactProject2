@@ -23,7 +23,7 @@ const SimpleSlider = ({
   employees = [],
   title = "TESTIMONIAL",
   heading = "Making Food great again and again",
-  description = "You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catalogues etc to make your."
+  description = "You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your."
 }) => {
   const renderStars = (count) =>
     Array.from({ length: 5 }).map((_, i) =>

@@ -9,7 +9,7 @@ const Employees = () => {
     {
       img: avatar1,
       text:
-        "You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc very successful to make your.",
+        "You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your.",
       rating: 4,
       name: "Augusta W. Reynoso",
       profession: "UI&UX DESIGNER"
@@ -30,7 +30,7 @@ const Employees = () => {
         employees={employees}
         title="OUR TEAM"
         heading="Meet Our Creative Minds"
-        description="Each team member brings passion, creativity, and technical excellence to our projects."
+        description="You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your."
       />
     </section>
   );
