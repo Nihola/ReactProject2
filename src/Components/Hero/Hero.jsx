@@ -14,17 +14,9 @@ const Hero = () => {
                     <a href="#" className='main-btn'>Food details</a>
                   </div>
         </div>
-        <img src={frying_pan} alt="frying_pan" className='main-image' />
-         
+        <img src={frying_pan} alt="frying_pan" className='main-image' />         
       </div>
-
-
-
-
     </div>
-    
-
-
   )
 }
 

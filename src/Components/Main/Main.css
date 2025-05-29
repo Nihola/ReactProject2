@@ -3,15 +3,15 @@
     flex-direction: column;
     gap: 30px;
     align-items: center;
-    max-width: 1140px;
-    margin: 0 auto;
+    padding: 0;
+    max-width: 1140px;     
   }
-  
+
   .sector-list {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
-    flex-wrap: wrap;
+     
   }
   
   .sector-item {
@@ -63,8 +63,7 @@
     font-size: 50x;
   }
   
-  
-  /* ✅ Responsive styles */
+  .ant-popover { display: none !important; }
   @media screen and (max-width: 700px) {
     .sector-list {
       flex-direction: column;
