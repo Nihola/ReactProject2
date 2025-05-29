@@ -20,8 +20,8 @@ function App() {
       <Layout/>
       <Block/>
       <Employees/>
-      {/* <Contact/> */}
-      {/* <Footer/> */}
+      <Contact/>
+      <Footer/>
 
     </>
   )

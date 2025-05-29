@@ -1,4 +1,3 @@
-// Employees.js
 import React from "react";
 import avatar1 from "./images/avatar1.png";
 import avatar2 from "./images/avatar2.png";

@@ -21,18 +21,15 @@ const Header = () => {
         </div>
 
 
-      
-        {/* Hide this button on small screens */}
+       
         <a href="#" className='nav-button hide-on-mobile'>Booking Now</a>
-
-        {/* Bigger hamburger icon */}
+ 
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           &#9776;
         </div>
 
-      </div>
-
-      {/* Mobile menu modal */}
+      </div> 
+      
       {menuOpen && (
         <div className="mobile-menu">
           <ul>
