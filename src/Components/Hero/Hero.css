@@ -11,16 +11,14 @@
   }
   
   body {
-    margin: 0;
-  
+    margin: 0;  
   }
-  
   
   .main-title {
     font-family: Philosopher;
     font-weight: 700;
     font-size: 40.83px;
-    width: 455px;
+    width: 585px;
     letter-spacing: 0%;
     color: rgba(21, 12, 1, 1);
   }
@@ -49,7 +47,7 @@
   }
   
   .main-image {
-    max-width: 480px; 
+    max-width: 720px; 
     height: auto;
    }
   
@@ -89,7 +87,7 @@
     }
   
     .main-image {
-      max-width: 40%;
+      max-width: 60%;
     }
   }
   
